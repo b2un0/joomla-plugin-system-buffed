@@ -8,7 +8,7 @@
  * @copyright  (c) 2013 Branko Wilhelm
  * @package    plg_buffed
  * @license    GNU General Public License v3
- * @version    $Id: buffed.php 3 2013-04-03 16:28:41Z bruno $
+ * @version    $Id$
  */
  
 defined('_JEXEC') or die;
