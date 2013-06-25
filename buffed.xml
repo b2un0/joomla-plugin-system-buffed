@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- @Version $Id$ -->
 <extension version="2.5" type="plugin" group="system" method="upgrade">
     <name>System - buffed</name>
     <author>Branko Wilhelm</author>
@@ -8,7 +7,7 @@
     <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
     <authorEmail>bw@z-index.net</authorEmail>
     <authorUrl>www.z-index.net</authorUrl>
-    <version>@SVN_REVISION@</version>
+    <version>@REVISION@</version>
     <description>include buffed Javascript</description>
     <files>
         <filename plugin="buffed">buffed.php</filename>
