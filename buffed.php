@@ -12,6 +12,6 @@ defined('_JEXEC') or die;
 class plgSystemBuffed extends JPlugin {
 
 	public function onBeforeRender() {
-		JFactory::getDocument()->addScript('http://wowdata.buffed.de/js/buffed-db-tooltips.js');
+	    JFactory::getDocument()->addScript('http://wowdata.buffed.de/js/buffed-db-tooltips.js', 'text/javascript', false, true);
     }
 }
