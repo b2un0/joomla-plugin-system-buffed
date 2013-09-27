@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="2.5" type="plugin" group="system" method="upgrade">
-    <name>System - buffed</name>
-    <author>Branko Wilhelm</author>
-    <creationDate>Apr 2013</creationDate>
-    <copyright>Copyright (C) 2013 Branko Wilhelm</copyright>
-    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
-    <authorEmail>branko.wilhelm@gmail.com</authorEmail>
-    <authorUrl>www.z-index.net</authorUrl>
-    <version>@REVISION@</version>
-    <description>include buffed Javascript</description>
-    <files>
-        <filename plugin="buffed">buffed.php</filename>
-        <filename>index.html</filename>
-    </files>
-    <updateservers>
-		<server type="extension" priority="1" name="buffed">http://www.z-index.net/en/joomla/buffed/updatestream.xml</server>
+	<name>System - buffed</name>
+	<author>Branko Wilhelm</author>
+	<creationDate>Apr 2013</creationDate>
+	<copyright>Copyright (C) 2013 Branko Wilhelm</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>branko.wilhelm@gmail.com</authorEmail>
+	<authorUrl>www.z-index.net</authorUrl>
+	<version>@REVISION@</version>
+	<description>include buffed Javascript</description>
+	<files>
+		<filename plugin="buffed">buffed.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="z-index development">http://www.z-index.net/en/extensions.xml</server>
 	</updateservers>
 </extension>
