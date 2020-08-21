@@ -13,6 +13,6 @@
         <filename plugin="buffed">buffed.php</filename>
     </files>
     <updateservers>
-        <server type="collection" priority="1" name="z-index development">http://www.z-index.net/en/extensions.xml</server>
+        <server type="extension" priority="1" name="System - buffed">https://raw.githubusercontent.com/z-index-net/joomla-plugin-system-buffed/master/updatestream.xml</server>
     </updateservers>
 </extension>
