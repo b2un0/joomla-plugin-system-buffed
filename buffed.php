@@ -14,6 +14,10 @@ class plgSystemBuffed extends JPlugin
 
     public function onBeforeRender()
     {
-        JFactory::getDocument()->addScript('http://wowdata.buffed.de/js/buffed-db-tooltips.js', 'text/javascript', false, true);
+        if (JFactory::getApplication()->isAdmin()) {
+            return;
+        }
+
+        JFactory::getDocument()->addScript('//wowdata.buffed.de/js/buffed-db-tooltips.js', [], ['async' => 'async']);
     }
 }
